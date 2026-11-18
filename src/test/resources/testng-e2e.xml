@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="hapifyMe REST API v1">
+    <test name="Flux E2E" preserve-order="true">
+        <classes>
+            <class name="ro.qatester.api.v1.HapifyMeE2EFlowTest"/>
+        </classes>
+    </test>
+    <test name="Teste negative">
+        <classes>
+            <class name="ro.qatester.api.v1.HapifyMeNegativeTest"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="hapifyMe REST API v1 - Exercitii">
+    <test name="Solutii exercitii 6.11">
+        <classes>
+            <class name="ro.qatester.api.v1.HapifyMeExercitiiTest"/>
+        </classes>
+    </test>
+</suite>
